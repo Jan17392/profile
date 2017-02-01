@@ -51,7 +51,7 @@ a:visited {
 
 a:hover {
   color: rgb(251, 77, 61);
-  transition: all .9s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .container {
@@ -79,17 +79,17 @@ a:hover {
 
 .fa-github-square:before {
   content: "\f092";
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .fa-facebook-square:before {
   content: "\f082";
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .fa-linkedin-square:before {
   content: "\f08c";
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .fa-info-circle:before {
