@@ -29,6 +29,11 @@ h3 {
 
 ul {
   margin: 0 auto;
+  max-width: 300px
+}
+
+li {
+  text-align: center;
 }
 
 link {
@@ -46,18 +51,20 @@ a:visited {
 
 a:hover {
   color: rgb(251, 77, 61);
+  transition: all .9s ease-in-out;
 }
 
 .container {
   width: 80%;
   margin: 0 auto;
+  padding-left: 120px
 }
 
 .card {
   background-color: white;
   width: 80%;
   margin: 0 auto;
-  padding: 50px;
+  padding: 30px;
   border-radius: 5px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
@@ -85,6 +92,10 @@ a:hover {
   font-size: 50px;
 }
 
+.fa-info-circle:before {
+  font-size: 30px;
+}
+
 .no_underline {
   text-decoration: none;
 }
@@ -106,10 +117,33 @@ a:hover {
 }
 
 #social_list {
-  display: inline-block;
   list-style: none;
   column-count: 3;
   margin: 0 auto;
   padding: 0px 20px;
   padding-left: 0px;
+}
+
+#sidebar {
+    background-color: #384047;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 120px;
+    text-align: center;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#sidebar li {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sidebar_icon {
+  color: white;
 }
