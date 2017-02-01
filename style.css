@@ -1,0 +1,115 @@
+body {
+  background-color: rgb(230, 236, 240);
+  font-family: ;
+  color: rgb(39, 48, 67);
+  font-size: 17px;
+  line-height:;
+}
+
+h1 {
+  color: rgb(39, 48, 67);
+  font-family: 'Cuprum', sans-serif;
+  font-size: 30px;
+  line-height: 60px;
+}
+
+h2 {
+  color: rgb(39, 48, 67);
+  font-family: 'Cuprum', sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+h3 {
+  color: rgb(39, 48, 67);
+  font-family: 'Cuprum', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+ul {
+  margin: 0 auto;
+}
+
+link {
+  text-decoration: none;
+  color: rgb(39, 48, 67);
+}
+
+a:link {
+  color: rgb(39, 48, 67);
+}
+
+a:visited {
+  color: rgb(39, 48, 67);
+}
+
+a:hover {
+  color: rgb(251, 77, 61);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.centered_text {
+  text-align: center;
+}
+
+.left_text {
+  text-align: left;
+}
+
+.fa-github-square:before {
+  content: "\f092";
+  font-size: 50px;
+}
+
+.fa-facebook-square:before {
+  content: "\f082";
+  font-size: 50px;
+}
+
+.fa-linkedin-square:before {
+  content: "\f08c";
+  font-size: 50px;
+}
+
+.no_underline {
+  text-decoration: none;
+}
+
+.project_pic {
+  width: 80%;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+#profile_pic {
+  width: 80%;
+  max-width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25%;
+  box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.3);
+}
+
+#social_list {
+  display: inline-block;
+  list-style: none;
+  column-count: 3;
+  margin: 0 auto;
+  padding: 0px 20px;
+  padding-left: 0px;
+}
